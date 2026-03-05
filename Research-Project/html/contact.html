@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="researchApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchHub - Contact</title>
+
+   
+    <link rel="stylesheet" href="../css/style.css">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+
+    <nav>
+        <div class="logo">
+            <h2>ResearchHub</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="plagiarism.html">Plagiarism Check</a></li>
+            <li><a href="register.html">Register-Form</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="contact-hero">
+        <h1>Contact <span>ResearchHub</span></h1>
+        <p>We’re here to assist you with research queries, publication support, and platform guidance.</p>
+    </section>
+
+  
+    <section class="contact-section">
+        <div class="contact-wrapper">
+
+            <div class="contact-info-box">
+                <h3>Get in Touch</h3>
+                <p>📧 Email: research@publication.org</p>
+                <p>📍 Address: ResearchHub Academic Center, Innovation Campus</p>
+                <p>📞 Phone: +91 98765 43210</p>
+                <p>⏰ Working Hours: Mon – Fri, 9:00 AM – 6:00 PM</p>
+            </div>
+
+            <div class="contact-form-box">
+                <form id="contactForm">
+
+                    <label>Full Name</label>
+                    <input type="text" required>
+
+                    <label>Email Address</label>
+                    <input type="email" required>
+
+                    <label>Subject</label>
+                    <input type="text" required>
+
+                    <label>Message</label>
+                    <textarea required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                    <div class="success-message" id="successMsg">
+                        ✅ Message sent successfully! We will contact you soon.
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 ResearchHub. All Rights Reserved.
+    </footer>
+
+</body>
+</html>

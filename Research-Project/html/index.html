@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ResearchHub | Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #081020;
+            color: white;
+        }
+
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #081020 60%, #14b8a6 140%);
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #14b8a6;
+            /* teal */
+        }
+
+        .tagline {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+        }
+
+        .tagline span {
+            color: #ff7a59;
+            /* orange */
+            font-weight: 600;
+        }
+
+        .hero p {
+            line-height: 1.8;
+            margin-bottom: 35px;
+            color: #cbd5e1;
+        }
+
+        .btn {
+            background: #14b8a6;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #ff7a59;
+            transform: scale(1.05);
+        }
+
+
+        .stats {
+            background: white;
+            color: #081020;
+            padding: 8%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            margin: 0px;
+        }
+
+        .stat-box h2 {
+            font-size: 2rem;
+            color: #14b8a6;
+            margin-bottom: 10px;
+        }
+
+        .stat-box p {
+            color: #555;
+        }
+
+
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to <span>ResearchHub</span></h1>
+
+            <div class="tagline">
+                Research Today – <span>Impact Tomorrow</span>
+            </div>
+
+            <p>
+                ResearchHub is a peer-reviewed, open-access academic platform
+                publishing original research articles, review papers, and case
+                studies across multiple disciplines. Every article is assigned
+                a DOI and indexed for global visibility and credibility.
+            </p>
+
+            <a href="home.html" class="btn">Enter Platform</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-box">
+            <h2>12,500+</h2>
+            <p>Published Papers</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>7.538</h2>
+            <p>Impact Factor</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>48 Hours</h2>
+            <p>Average Review Time</p>
+        </div>
+    </section>
+
+</body>
+
+</html>

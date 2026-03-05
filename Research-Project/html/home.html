@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="researchApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchHub</title>
+
+    
+    <link rel="stylesheet" href="../css/style.css">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+
+    
+    <nav>
+        <h2>ResearchHub</h2>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="plagiarism.html">Plagiarism Check</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="scroll-banner">
+        <div class="scrolling-text">
+            Join Our Upcoming Research Webinar! | Discover AI & Machine Learning Trends |
+            Reserve Your Spot Now!
+        </div>
+    </div>
+
+    <section class="hero">
+
+        <div class="hero-slider">
+            <img src="../assets/image.png" class="slide active">
+            <img src="../assets/image copy.png" class="slide">
+            <img src="../assets/image copy 2.png" class="slide">
+            <img src="../assets/image copy 3.png" class="slide">
+            <img src="../assets/image copy 5.png" class="slide">
+        </div>
+
+        <div class="hero-left">
+            <h1>Welcome to <span class="gradient-text">ResearchHub</span></h1>
+            <h3 class="tagline">
+                Research Today – <span class="highlight">Impact Tomorrow</span>
+            </h3>
+
+            <p class="hero-desc">
+                ResearchHub is a peer-reviewed, open-access platform publishing original
+                research articles, review papers, and case studies across multiple
+                academic disciplines. All published articles are assigned a DOI and
+                indexed for visibility, authenticity, and credibility.
+            </p>
+
+            <a href="publications.html" class="btn-publication">
+                View Publications
+            </a>
+        </div>
+
+    </section>
+
+    <div class="research-search-section">
+        <form class="research-search-form">
+            <input type="text" placeholder="Enter keywords, title or abstract">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <section class="home-dashboard">
+
+        <div class="stats-premium-row">
+
+            <div class="stat-premium-card" style="background: linear-gradient(135deg, #14a6a1, #1fb3b3);">
+                <i class="fas fa-chart-line stat-icon"></i>
+                <div>
+                    <h4>Scientific Journal Impact Factor</h4>
+                    <p>7.538</p>
+                </div>
+            </div>
+
+            <div class="stat-premium-card" style="background: linear-gradient(135deg, #61eded, #7ceeee);">
+                <i class="fas fa-database stat-icon"></i>
+                <div>
+                    <h4>Indexed With</h4>
+                    <p>Research Bible, ScienceCentral</p>
+                </div>
+            </div>
+
+            <div class="stat-premium-card" style="background: linear-gradient(135deg, #7ceeee, #8ef5f5);">
+                <i class="fas fa-link stat-icon"></i>
+                <div>
+                    <h4>Referred By</h4>
+                    <p>IndianScience.in</p>
+                </div>
+            </div>
+
+            <div class="stat-premium-card" style="background: linear-gradient(135deg, #8ef5f5, #a0ffff);">
+                <i class="fas fa-university stat-icon"></i>
+                <div>
+                    <h4>Tied Up With</h4>
+                    <p>Hamburg State & University Library</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dashboard-grid">
+
+            <div class="stat-card" style="background: linear-gradient(135deg, #ff7e5f, #feb47b);">
+                <i class="fas fa-calendar-check stat-icon"></i>
+                <h4>Submission Last Date</h4>
+                <p>31.03.2026</p>
+            </div>
+
+            <div class="stat-card" style="background: linear-gradient(135deg, #0b8d8c, #1985a1);">
+                <i class="fas fa-bolt stat-icon"></i>
+                <h4>Acceptance Notification</h4>
+                <p>Within 48 Hours</p>
+            </div>
+
+            <div class="stat-card" style="background: linear-gradient(135deg, #2ec4c4, #3fd1d1);">
+                <i class="fas fa-clock stat-icon"></i>
+                <h4>Publication Time</h4>
+                <p>Within 48 Hours</p>
+            </div>
+
+            <div class="stat-card" style="background: linear-gradient(135deg, #3fd1d1, #50e0e0);">
+                <i class="fas fa-certificate stat-icon"></i>
+                <h4>E-Certificates</h4>
+                <p>Within 04 Hours</p>
+            </div>
+
+            <div class="stat-card stat-action" style="background: linear-gradient(135deg, #ff7e5f, #feb47b);">
+                <i class="fas fa-upload stat-icon"></i>
+                <h4>Submit Paper Online</h4>
+                <a href="register.html" class="btn-publication">
+                    Submit Now
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-line2">
+            <a href="#">General Terms & Conditions</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Legal Notice</a>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 ResearchHub |
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

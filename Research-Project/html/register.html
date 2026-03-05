@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="researchApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchHub - Register</title>
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+
+
+    <nav>
+        <div class="logo">
+            <h2>ResearchHub</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="plagiarism.html">Plagiarism Check</a></li>
+            <li><a href="register.html" class="active">Register-Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="register-hero">
+        <h1>Paper <span>Registration</span></h1>
+        <p>Submit your research work for review and publication consideration.</p>
+    </section>
+
+    <section class="register-section">
+        <div class="register-wrapper">
+
+
+            <div class="submission-protocols">
+                <h3>Submission Guidelines</h3>
+                <ul>
+                    <li>Paper must be original and unpublished.</li>
+                    <li>Plagiarism must be below 20%.</li>
+                    <li>Accepted formats: PDF / DOCX.</li>
+                    <li>All authors must register individually.</li>
+                    <li>Confirmation email will be sent after review.</li>
+                </ul>
+            </div>
+
+
+            <div class="register-form-box">
+
+                <div id="successMessage" class="success-message">
+                    ✅ Registration Submitted Successfully!
+                </div>
+
+                <form id="registerForm">
+
+                    <label>Full Name</label>
+                    <input type="text" required>
+
+                    <label>Email Address</label>
+                    <input type="email" required>
+
+                    <label>Institution / University</label>
+                    <input type="text" required>
+
+                    <label>Paper Title</label>
+                    <input type="text" required>
+
+                    <label>Brief Abstract</label>
+                    <textarea required></textarea>
+
+                    <button type="submit">Submit Registration</button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 ResearchHub. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
