@@ -43,9 +43,8 @@ All other papers, text content, and submissions are considered **human-written**
 Research-Project
 ├── assets/        Images used in the project
 ├── css/           CSS styles
-├── html/          HTML pages (Home, About, Contact, Publications, Plagiarism, Register)
+├── html/          HTML pages (Index, Home, About, Contact, Publications, Plagiarism, Register)
 ├── js/            AngularJS scripts
-├── index.html     Main entry page
 
 ---
 
@@ -85,4 +84,4 @@ git clone https://github.com/at-vaishnavi/ResearchHub.git
 This project is created for **educational and demonstration purposes only**.
 It is not deployed and does not include a backend for user submissions.
 
-All research papers (except the AI example) were sourced from **Google and publicly available online research content**.
+All research papers were sourced from **Google and publicly available online research content**.
