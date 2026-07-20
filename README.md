@@ -39,13 +39,13 @@ All other papers, text content, and submissions are considered **human-written**
 ---
 
 ## Project Structure
-
+```
 Research-Project
 ├── assets/        Images used in the project
 ├── css/           CSS styles
 ├── html/          HTML pages (Index, Home, About, Contact, Publications, Plagiarism, Register)
 ├── js/            AngularJS scripts
-
+```
 ---
 
 ## How to Run
